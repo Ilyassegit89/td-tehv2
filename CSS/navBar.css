@@ -1,0 +1,83 @@
+
+.backimg .container-fluid{
+   padding-inline: 0;
+}
+.heroimg-nav{
+    
+    min-height: 70vh; 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   display: grid;
+   align-items: center;
+}
+.liststyle{
+   font-weight: bold;
+
+}
+a.contactback{
+   padding-inline: 16px;
+   background: linear-gradient(179deg, #b908d9, #0f7afe);
+   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+   color: #ffff !important;
+   transition: all 0.5s ease 0s;
+}
+
+ a.contactback ion-icon{
+   vertical-align: middle;
+   font-size: 1.3em; 
+}
+a.contactback:is( :hover, :focus-visible){
+   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+}
+.liststyle > ul li a{
+   color: #000000;
+}
+
+.liststyle > ul li:hover::after{
+   transform: scaleX(1);
+}
+
+.liststyle > ul li a{
+   position: relative;
+}
+.liststyle > ul li a:hover{
+   color: #2988fe;
+}
+.liststyle > ul li a.active{
+   color: #2988fe;
+}
+.liststyle > ul li a.active::after{
+   content: '';
+   width: 100%;
+   height: 4px;
+   background-color: #2988fe;
+   position: absolute;
+   bottom: -21px;
+   left: 0;
+   border-radius: 20px;
+   
+}
+
+.liststyle > ul li a:not(.active, .contactback):hover:after{
+   content: '';
+   width: 100%;
+   height: 4px;
+   background-color: #2988fe;
+   position: absolute;
+   bottom: -21px;
+   left: 0;
+   border-radius: 20px;
+   
+}
+.liststyle > ul.spacing-links .nav-item{
+   padding-inline-end: 20px !important ;
+}
+
+ .unorderedlist{
+   justify-content: flex-end ;
+   flex: 2;
+
+ }
+
+ 

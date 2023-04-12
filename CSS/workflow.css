@@ -1,0 +1,80 @@
+section.workflow{
+    min-height: 100vh;
+    margin-bottom: 1em;
+}
+
+.bo{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 7em;
+    width: 7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 75%;
+    border: 1px solid #eee;
+    margin-block-end: 62px;
+    margin-bottom: 100px;
+    position: relative;
+}
+.bo.firs::after{
+    content: "";
+    position: absolute;
+    background: linear-gradient(181deg, #8b11f9, #1672f9);
+    width: 9px;
+    height: 1000px;
+    top: 110px;
+} 
+.columns{
+    height: 1310px
+}
+
+.threecolWork{
+    height: 100%;
+}
+.firstCol{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.firstCol .row{
+    height:1071px
+}
+.seccol{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; 
+}
+
+.seccol::after{
+    content: "";
+    position: absolute;
+    background: linear-gradient(181deg, #8b11f9, #1672f9);
+    width: 9px;
+    height: 100%;
+    top: 0;
+}
+.thirdCol{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.thirdCol .row{
+    height:1071px
+}
+.bo1{
+    position: relative;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+                height: 7em;
+                width: 7em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 75%;
+                border: 1px solid #eee;
+                
+}
+

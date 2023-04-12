@@ -1,0 +1,224 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+
+
+
+.backimg{
+    background-image: url('/backgroundimg/background.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position-x: center;
+    min-height: 74vh;
+}
+.hero-section{
+    padding: 3rem;
+} 
+span.TD-hero{
+    position: relative;
+}
+span.TD-hero::after{
+    opacity: 0.3;
+    content: "";
+    position: absolute;
+    width: 100%;
+    background-color: #000000;
+    border-radius: 2px;
+    height: 1px;
+    bottom: -8px;
+    left: 0;
+}
+span.techspan{
+    color:  var(--primary-color)!important;
+    font-weight: bold;
+}
+.FontHero h1{
+    position: relative;
+    font-size: 3em;
+    font-family: 'Anton', sans-serif;
+    color: #000000;
+}
+.FontHero h1::after{
+    content: "";
+    position: absolute;
+    width: 25%;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    height: 4px;
+    bottom: 2px;
+    left: 0;
+    
+}
+ p.herop{
+    font-size: 16px;
+} 
+
+.burger-menu{
+    font-size: 1.5em;
+}
+
+@media (max-width: 990px) {
+    .leftSide, .rightSide .pluspng, .twopaths, .rightSide .rp-2{
+        display: none;
+    }
+    
+
+
+    .FontHero h1{
+        font-size: 2em;
+
+    }
+    .hero-sect{
+        padding-top: 11em;
+        padding-bottom: 9em;
+        text-align: -webkit-center;
+        }
+    .heroCont{
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+        justify-content: center;
+    }
+    .FontHero h1::after{
+        content: "";
+        position: absolute;
+        width: 50%;
+        background-color: var(--primary-color);
+        border-radius: 2px;
+        height: 4px;
+        bottom: 0px;
+        left: 26%;
+
+        
+    }
+    .navbar-collapse{
+    height: 100vh;
+    }
+    nav.navBar{
+        background-color: #d1e0fc !important;
+      }
+    .unorderedlist{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+      } 
+      li.nav-item {
+        margin-block: 3em;
+    }
+
+
+
+
+      /*Nos Services*/
+      
+      h3.Pseudohead{
+        padding-inline-start: 71px;
+          }
+
+      h3.Pseudohead::before{
+        content: "";
+        background: linear-gradient(179deg, #b00edb, #1b73fc);
+        height: 4px;
+        width: 55px;
+        position: absolute;
+        top: 41px;
+        left: 210px;
+      }
+
+
+
+      /*Workflow*/
+      .columns  .threecolWork{
+        height: 100%;
+        position: relative;
+      }
+
+      .firstCol{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: relative;
+        z-index: 2;
+      }
+      .firstCol .row .card::after{
+        content: url('/pngs/laptop.png ');
+        width: 90px;
+        height: 100px;
+        position: absolute;
+        top: 231px;
+        right: 40%;
+        background-color: white;
+        border: 1px solid #eee;
+        text-align: center;
+        height: 90px;
+        border-radius: 45%;
+        padding: 1px;
+      }
+
+      .seccol .bo1{
+        display: none;
+      }
+      
+      .thirdCol{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        position: relative;
+        z-index: 2;
+      }
+      .thirdCol .row .card::after{
+        content: url('/pngs/laptop.png ');
+        width: 90px;
+        height: 100px;
+        position: absolute;
+        top: 231px;
+        right: 40%;
+        background-color: white;
+        border: 1px solid #eee;
+        text-align: center;
+        height: 90px;
+        border-radius: 45%;
+        padding: 1px;
+      }
+      .threecolWork{
+        position: relative;
+      }
+      .threecolWork::before{
+        content: "";
+        height: 2130px;
+        background: linear-gradient(181deg, #8b11f9, #1672f9);
+        width: 9px;
+        position: absolute;
+        left: 50%;
+      }
+    
+    section.workflow{
+        height: 275vh;
+    
+    }
+    form.formContact2{
+        padding-inline: 40px;
+    }
+    
+    
+}
+
+a.nav-link.contactback{
+    width:fit-content; 
+    height: 40px; 
+    display: flex; 
+    align-items: center; 
+    font-weight: bold;
+}
+
+.twopaths{
+    position: absolute;
+    top: -71px;
+    right: 35px;
+    height: 300px;
+    width: 240px;
+}
+
+

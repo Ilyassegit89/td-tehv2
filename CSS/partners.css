@@ -1,0 +1,64 @@
+.service-2{
+    min-height: 20vh;
+    text-align: center;
+    line-height: 1.6em;
+}
+
+
+.partenaires .container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.container .brand-container{
+    filter: contrast(0);
+    border: 1px solid #e4e4e43d ;
+}
+.container .brand-container:is( :hover){
+    filter: contrast(1);
+    border: 1px solid #e4e4e43d ;
+
+}
+.partners .brand-container{
+    box-shadow: 14px 12px 20px 4px rgb(0 0 0 / 10%);
+
+}
+.scroll-container .scrolban{
+    
+    height: 125px;
+    padding-block: 1em;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-inline: auto;
+    
+}
+ .scrolling-list {
+    overflow: hidden;
+    background-color: #f1f6fe;
+  }
+  
+  .scrl{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    animation: scroll 10s linear infinite;
+  }
+  
+  .scrl > div img{
+    flex: 0 0 auto;
+    padding: 0 10px;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

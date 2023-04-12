@@ -1,0 +1,83 @@
+
+
+
+.ContactForm2{
+    text-align: center;
+    position: relative;
+}
+
+form.formContact2{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 14px 12px 20px 4px rgb(0 0 0 / 25%);
+    max-width: 500px;
+    padding-block: 1.5em;
+    padding-inline: 5em;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    top: 14em;
+    right: 0;
+    bottom: 0;
+    height: fit-content;
+    margin-block: 1em;
+    line-height: 2.5em;
+}
+form.formContact2 .AllFiedls{
+    text-align: start;
+}
+
+.backofContact-2{
+    background-image: url('/backgroundimg/backConsult.png');
+    background-size: cover;
+    min-height: 50vh;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    padding-block: 3em;
+    background-position: inherit;
+}
+
+input.btn-submit{
+    background-color: #0f7afe;
+    border: none;
+    border-radius: 7px;
+    width: fit-content;
+    
+    padding-inline: 15px;
+    color: white;
+}
+
+span.obligicon{
+    color: red;
+}
+
+.messageField input {
+    height: 85px;
+}
+.txtarea{
+    width: 100%;
+    height: 150px; padding-inline: 1em;
+}
+
+.selectOpt{
+    width: -webkit-fill-available;
+}
+
+.forum input.err, .forum .txtarea.err, .forum .selectOpt.err{
+    border-color: #fc2929;
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.25);
+
+}
+
+.error-msg{
+color: #fc2929;
+}.error-msg2{
+color: #fc2929;
+}.error-msg3{
+color: #fc2929;
+}.error-msg4{
+color: #fc2929;
+}.error-msg5{
+color: #fc2929;
+}.error-msg6{
+color: #fc2929;
+}

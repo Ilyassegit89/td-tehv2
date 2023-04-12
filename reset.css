@@ -1,0 +1,28 @@
+@import url('./CSS/navBar.css');
+@import url('./CSS/hero-part.css');
+@import url('./CSS/services.css');
+@import url('./CSS/partners.css');
+@import url('./CSS/Consult.css');
+@import url('./CSS/workflow.css');
+@import url('./CSS/fomrContact2.css');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #2988fe;
+}
+
+
+input {
+    overflow: visible;
+    width: 100%;
+}
+
+input, select{
+    padding-inline: 1em;
+    height: 2em;
+}
